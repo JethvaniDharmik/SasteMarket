@@ -31,7 +31,7 @@ const addServices = async (req, res) => {
         }
 
         // hashing service password
-        const salt = await bcrypt.genSalt(10);  // ✅ Correct bcrypt method
+        const salt = await bcrypt.genSalt(10); 
         const hashedPassword = await bcrypt.hash(password, salt);
 
         // upload image to cloudinary
