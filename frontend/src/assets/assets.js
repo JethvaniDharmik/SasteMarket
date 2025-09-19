@@ -32,7 +32,7 @@ import doc14 from './doc14.png'
 import doc15 from './doc15.png'*/
 import carpenter from './carpenter.png'
 import plumber from './plumberr.png'
-import painter from './painter.png'
+import painter from "./painter.png";
 import electrician from './engineering.png'
 
 
